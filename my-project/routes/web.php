@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Index;
+use App\Http\Livewire\Site;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//ghggh
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/site', Index::class);
